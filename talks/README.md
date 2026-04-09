@@ -46,9 +46,9 @@ The official syllabus is available to registered conference attendees through th
 - **[Tools & software](tools/)** — Segmentation, registration, analysis, and annotation tools
 
 ### By talk
-- [Basic Principles resources](talks/basic-principles/)
-- [Segmentation & Registration resources](talks/seg-reg/)
-- [Analysis & Fitting resources](talks/analysis-fitting/)
+- [Basic Principles resources](talks/basic-principles/) *(Bhattacharjee)*
+- [Segmentation & Registration resources](talks/seg-reg/) *(Hoyer)*
+- [Analysis & Fitting resources](talks/analysis-fitting/) *(Casula)*
 
 ---
 
@@ -88,7 +88,7 @@ If you find these resources useful:
 Hoyer G, Bhattacharjee R, Casula V. Quantitative MSK MRI: From Acquisition to Analysis.
 ISMRM & ISMRT Annual Meeting 2026, Cape Town, South Africa.
 Sunrise Course: Fundamentals of Musculoskeletal MRI.
-https://github.com/gabbieHoyer/ismrm2026-qmsk-mri
+https://gabbiehoyer.github.io/ismrm2026-qmsk-mri/
 ```
 
 ---

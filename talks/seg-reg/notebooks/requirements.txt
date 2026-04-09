@@ -1,0 +1,29 @@
+# Requirements for ISMRM 2026 Seg & Reg notebooks
+# Core
+numpy
+matplotlib
+nibabel
+SimpleITK
+scikit-image
+
+# Segmentation
+monai
+torch
+nnunetv2
+
+# Registration
+voxelmorph
+
+# Foundation models (notebook 03)
+segment-anything
+# medSAM — install from github: pip install git+https://github.com/bowang-lab/MedSAM.git
+
+# Morphometrics (notebook 04)
+trimesh
+scipy
+pandas
+
+# Notebook environment
+jupyter
+jupyterlab
+ipywidgets

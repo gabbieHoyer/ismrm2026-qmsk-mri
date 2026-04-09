@@ -9,6 +9,37 @@
 
 This talk covers segmentation and registration methods for quantitative musculoskeletal MRI — from classical atlas-based and shape-model approaches through modern deep learning, foundation models (SAM family), and self-supervised / weak-label strategies. Emphasis is on what breaks in MSK anatomy (articulated joints, thin cartilage, pathology-driven appearance shifts) and how to validate methods for downstream biomarkers rather than overlap alone.
 
+## Slides
+
+| Version | Link |
+|---------|------|
+| Preliminary | [slides.com/gabbiehoyer/ismrm2026-seg-reg](https://slides.com/gabbiehoyer/ismrm2026-seg-reg) |
+| Final | *Available after the conference* |
+
+> Slides are provided for educational use. Please cite the session if reusing figures.
+
+## Interactive notebooks
+
+Jupyter notebooks demonstrating key concepts from the talk using open-source data and tools. These are meant as hands-on companions — run them locally or in Google Colab.
+
+| Notebook | Topic | Data | Colab |
+|----------|-------|------|-------|
+| [01_knee_seg_nnunet.ipynb](notebooks/01_knee_seg_nnunet.ipynb) | Knee cartilage segmentation with nnU-Net | OAI / IWOAI | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gabbieHoyer/ismrm2026-qmsk-mri/blob/main/talks/seg-reg/notebooks/01_knee_seg_nnunet.ipynb) |
+| [02_registration_basics.ipynb](notebooks/02_registration_basics.ipynb) | Rigid + deformable registration with SimpleITK | Synthetic / OAI | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gabbieHoyer/ismrm2026-qmsk-mri/blob/main/talks/seg-reg/notebooks/02_registration_basics.ipynb) |
+| [03_sam_knee_mri.ipynb](notebooks/03_sam_knee_mri.ipynb) | Promptable segmentation with SAM/MedSAM on knee MRI | OAI | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gabbieHoyer/ismrm2026-qmsk-mri/blob/main/talks/seg-reg/notebooks/03_sam_knee_mri.ipynb) |
+| [04_thickness_morphometry.ipynb](notebooks/04_thickness_morphometry.ipynb) | Cartilage thickness mapping from segmentation masks | OAI-derived | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gabbieHoyer/ismrm2026-qmsk-mri/blob/main/talks/seg-reg/notebooks/04_thickness_morphometry.ipynb) |
+
+> **Status:** *Notebooks are in development. Check back closer to the conference.*
+
+### Running locally
+
+```bash
+git clone https://github.com/gabbieHoyer/ismrm2026-qmsk-mri.git
+cd ismrm2026-qmsk-mri/talks/seg-reg/notebooks
+pip install -r requirements.txt
+jupyter lab
+```
+
 ## Learning objectives
 
 1. Explain where segmentation and registration sit in quantitative MSK MRI pipelines
@@ -16,6 +47,8 @@ This talk covers segmentation and registration methods for quantitative musculos
 3. Choose registration models (rigid/affine vs deformable) that match the anatomy and study question
 4. Apply practical quality checks that protect downstream biomarkers (thickness, volume, fat fraction)
 5. Point to datasets, benchmarks, and open software that support reproducible research
+
+---
 
 ## Key references
 
@@ -70,4 +103,4 @@ This talk covers segmentation and registration methods for quantitative musculos
 
 ---
 
-*See also: [Datasets](../../datasets/), [Tools](../../tools/), [Session overview](../../)*
+*See also: [Open syllabus](syllabus-open.md) · [Datasets](../../datasets/) · [Tools](../../tools/) · [Session overview](../../)*
