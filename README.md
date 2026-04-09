@@ -88,7 +88,7 @@ If you find these resources useful:
 Hoyer G, Bhattacharjee R, Casula V. Quantitative MSK MRI: From Acquisition to Analysis.
 ISMRM & ISMRT Annual Meeting 2026, Cape Town, South Africa.
 Sunrise Course: Fundamentals of Musculoskeletal MRI.
-https://github.com/[your-handle]/ismrm2026-qmsk-mri
+https://github.com/gabbieHoyer/ismrm2026-qmsk-mri
 ```
 
 ---
