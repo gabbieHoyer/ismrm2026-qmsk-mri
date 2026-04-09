@@ -1,0 +1,4 @@
+theme: jekyll-theme-minimal
+title: "Quantitative MSK MRI: From Acquisition to Analysis"
+description: "Open companion resources for the ISMRM 2026 Sunrise Course — papers, datasets, tools, and learning materials for musculoskeletal MRI segmentation, registration, and quantitative analysis."
+logo: # optional: add a small logo image path here
