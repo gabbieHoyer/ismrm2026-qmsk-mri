@@ -13,7 +13,7 @@ This talk covers segmentation and registration methods for quantitative musculos
 
 | Version | Link |
 |---------|------|
-| Preliminary | [slides.com/gabbiehoyer/ismrm2026-seg-reg](https://slides.com/gabbiehoyer/ismrm2026-seg-reg) |
+| Preliminary | [slides.com/gabbiehoyer/ismrm2026-seg-reg](https://slides.com/gabriellehoyer/ismrm2026-seg-reg) |
 | Final | *Available after the conference* |
 
 > Slides are provided for educational use. Please cite the session if reusing figures.
